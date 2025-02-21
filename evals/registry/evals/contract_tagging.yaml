@@ -1,0 +1,5 @@
+contract_tagging.v1:
+  id: contract_tagging.v1
+  metrics: [accuracy, completeness, formatting]
+  description: Evaluates contract tagging accuracy with external API data
+  class: evals.registry.evals.contract_tagging:ContractTaggingEval 

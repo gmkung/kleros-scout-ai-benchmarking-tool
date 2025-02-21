@@ -1,0 +1,30 @@
+[
+  {
+    "contract_address": "eip155:1:0xC02aaa39b223FE8D0A0E5C4F27ead9083C756Cc2",
+    "project_name": "Ethereum",
+    "public_name_tag": "WETH Token",
+    "ui_link": "https://weth.io",
+    "category": "standard"
+  },
+  {
+    "contract_address": "eip155:1:0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "project_name": "Tether",
+    "public_name_tag": "USDT Token",
+    "ui_link": "https://tether.to",
+    "category": "standard"
+  },
+  {
+    "contract_address": "eip155:1:0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
+    "project_name": "Compound",
+    "public_name_tag": "cDAI (V1)",
+    "ui_link": "https://compound.finance",
+    "category": "multi_version"
+  },
+  {
+    "contract_address": "eip155:1:0xDEADBEEF1234567890abcdefDEADBEEF12345678",
+    "project_name": "Example Project",
+    "public_name_tag": "Example Token (deprecated)",
+    "ui_link": "https://example.com",
+    "category": "deprecated"
+  }
+]

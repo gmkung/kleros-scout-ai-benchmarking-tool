@@ -1,0 +1,41 @@
+# Name of the evaluation suite
+name: contract_tagging_eval
+
+# Path to dataset file
+dataset_path: dataset.json
+
+# Specify the task type
+task: text-generation
+
+# Define the prompt format
+prompt_template: |
+  Given the contract address {contract_address}, return the correct metadata tag.
+  Follow these rules:
+  - Project Name (if applicable)
+  - Public Name Tag (must be unique, max 50 characters)
+  - UI Link (most popular interface)
+  Example Format:
+  Project Name: <project_name>
+  Public Name Tag: <public_name_tag>
+  UI Link: <ui_link>
+
+# Expected outputs
+output_match:
+  type: exact_or_similar # Can be exact match or similarity-based
+  similarity_threshold: 0.9 # Adjust if using fuzzy matching
+
+# Scoring method
+scoring:
+  - name: accuracy
+    method: exact_match
+  - name: formatting
+    method: regex # Ensure valid format per rules
+  - name: completeness
+    method: presence_check # Ensure all fields are present
+  - name: edge_case_handling
+    method: category_match # Check if LLM correctly tags deprecated/multi-version
+
+contract_tagging:
+  id: contract_tagging.v1
+  metrics: [accuracy, completeness, formatting]
+  description: Evaluates contract tagging accuracy with external API data
