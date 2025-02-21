@@ -1,4 +1,4 @@
 openai>=1.0.0
 python-dotenv>=0.19.0
-requests>=2.28.0 
-evals
+requests>=2.28.0
+git+https://github.com/openai/evals.git@main

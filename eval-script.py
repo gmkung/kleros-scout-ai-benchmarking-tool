@@ -28,11 +28,17 @@ class ContractTaggingEval(Eval):
 
         # 4. Compare and record results
         result = self._compare(sample["expected"], response)
+        correct = (
+            result["accuracy"] >= 0.9
+            and result["completeness"] == 1.0
+            and result["formatting"] == 1.0
+        )
         record_match(
             score=result["accuracy"],
             expected=sample["expected"],
             actual=response,
             metadata=result,
+            correct=correct,
         )
         return result
 
@@ -40,12 +46,20 @@ class ContractTaggingEval(Eval):
         try:
             headers = {"Authorization": f"Bearer {self.api_key}"}
             response = requests.get(
-                f"https://api.example.com/contracts/{contract_address}", headers=headers
+                f"https://api.example.com/contracts/{contract_address}",
+                headers=headers,
+                timeout=10,  # Set a timeout of 10 seconds
             )
             response.raise_for_status()
             return response.json()
+        except requests.HTTPError as e:
+            return {"error": f"HTTP error occurred: {str(e)}"}
+        except requests.ConnectionError as e:
+            return {"error": f"Connection error occurred: {str(e)}"}
+        except requests.Timeout as e:
+            return {"error": f"Timeout error occurred: {str(e)}"}
         except requests.RequestException as e:
-            return {"error": str(e)}
+            return {"error": f"Request error occurred: {str(e)}"}
 
     def _create_prompt(
         self, sample: Dict[str, Any], contract_data: Dict[str, Any]
@@ -91,10 +105,17 @@ class ContractTaggingEval(Eval):
                 "formatting": 1.0 if not formatting_errors else 0.0,
                 "errors": formatting_errors,
             }
-        except Exception as e:
+        except KeyError as e:
             return {
                 "accuracy": 0.0,
                 "completeness": 0.0,
                 "formatting": 0.0,
-                "errors": [f"Parsing error: {str(e)}"],
+                "errors": [f"Key error: {str(e)}"],
+            }
+        except ValueError as e:
+            return {
+                "accuracy": 0.0,
+                "completeness": 0.0,
+                "formatting": 0.0,
+                "errors": [f"Value error: {str(e)}"],
             }
