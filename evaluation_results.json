@@ -1,0 +1,1057 @@
+{
+  "individual_results": [
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xC02aaa39b223FE8D0A0E5C4F27ead9083C756Cc2",
+        "prediction": "eip155:1:0xC02aaa39b223FE8D0A0E5C4F27ead9083C756Cc2"
+      },
+      "Public Name Tag": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "WETH Token",
+        "prediction": "WETH Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Ethereum",
+        "prediction": "Ethereum"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://weth.io",
+        "prediction": "https://weth.io"
+      },
+      "Public Note": {
+        "similarity": 0.8944271909999159,
+        "meets_threshold": 1,
+        "ground_truth": "WETH token on Ethereum blockchain",
+        "prediction": "WETH token on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "prediction": "eip155:1:0xdAC17F958D2ee523a2206206994597C13D831ec7"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "USDT",
+        "prediction": "USDT Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Tether",
+        "prediction": "Tether"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://tether.to",
+        "prediction": "https://tether.to"
+      },
+      "Public Note": {
+        "similarity": 0.5669467095138407,
+        "meets_threshold": 1,
+        "ground_truth": "Tether USD on Ethereum",
+        "prediction": "Tether's official USDT token on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
+        "prediction": "eip155:1:0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.875,
+        "ground_truth": "cDAI V1",
+        "prediction": "cDAI (V1)"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Compound",
+        "prediction": "Compound"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://compound.finance",
+        "prediction": "https://compound.finance"
+      },
+      "Public Note": {
+        "similarity": 0.7071067811865475,
+        "meets_threshold": 1,
+        "ground_truth": "Compound DAI Version 1",
+        "prediction": "Compound's interest bearing DAI token (Version 1)"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:43114:0x88c090496125b751B4E3ce4d3FDB8E47DD079c57",
+        "prediction": "eip155:43114:0x88c090496125b751B4E3ce4d3FDB8E47DD079c57"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.625,
+        "ground_truth": "DREGG",
+        "prediction": "DREGG Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "The Dragon's Lair",
+        "prediction": "The Dragon's Lair"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://thedragonslair.farm/",
+        "prediction": "https://thedragonslair.farm/"
+      },
+      "Public Note": {
+        "similarity": 0.7171371656006362,
+        "meets_threshold": 1,
+        "ground_truth": "Dragon's Lair DREGG token",
+        "prediction": "The Dragon's Lair's official DREGG token on Avalanche C-Chain"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:43114:0xb5Cc2CE99B3f98a969DBe458b96a117680AE0fA1",
+        "prediction": "eip155:43114:0xb5Cc2CE99B3f98a969DBe458b96a117680AE0fA1"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.625,
+        "ground_truth": "LUCKY",
+        "prediction": "LUCKY Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Lucky Coin",
+        "prediction": "Lucky Coin"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://www.luckycoinavax.com/",
+        "prediction": "https://www.luckycoinavax.com/"
+      },
+      "Public Note": {
+        "similarity": 0.7745966692414835,
+        "meets_threshold": 1,
+        "ground_truth": "Lucky Coin token on Avalanche",
+        "prediction": "Lucky Coin's official LUCKY token on Avalanche C-Chain"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "prediction": "eip155:1:0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "UNI",
+        "prediction": "UNI Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Uniswap",
+        "prediction": "Uniswap"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://uniswap.org",
+        "prediction": "https://uniswap.org"
+      },
+      "Public Note": {
+        "similarity": 0.5000000000000001,
+        "meets_threshold": 1,
+        "ground_truth": "Uniswap governance token",
+        "prediction": "The official governance token of the Uniswap protocol on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:56:0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "prediction": "eip155:56:0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "WBNB",
+        "prediction": "WBNB Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "BNB",
+        "prediction": "BNB"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://www.bnbchain.org",
+        "prediction": "https://www.bnbchain.org"
+      },
+      "Public Note": {
+        "similarity": 0.5773502691896258,
+        "meets_threshold": 1,
+        "ground_truth": "Wrapped BNB on BSC",
+        "prediction": "The wrapped version of BNB token on BNB Smart Chain"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:137:0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "prediction": "eip155:137:0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.6666666666666666,
+        "ground_truth": "WMATIC",
+        "prediction": "WMATIC Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Polygon",
+        "prediction": "Polygon"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://polygon.technology",
+        "prediction": "https://polygon.technology"
+      },
+      "Public Note": {
+        "similarity": 0.6666666666666666,
+        "meets_threshold": 1,
+        "ground_truth": "Wrapped MATIC on Polygon",
+        "prediction": "The wrapped version of MATIC token on Polygon network"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "prediction": "eip155:1:0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "AAVE",
+        "prediction": "AAVE Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Aave",
+        "prediction": "Aave"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://aave.com",
+        "prediction": "https://aave.com"
+      },
+      "Public Note": {
+        "similarity": 0.5773502691896258,
+        "meets_threshold": 1,
+        "ground_truth": "Aave token on Ethereum",
+        "prediction": "The native governance token of the Aave protocol on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:10:0x4200000000000000000000000000000000000006",
+        "prediction": "eip155:10:0x4200000000000000000000000000000000000006"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "WETH",
+        "prediction": "WETH Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Optimism",
+        "prediction": "Optimism"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://optimism.io",
+        "prediction": "https://optimism.io"
+      },
+      "Public Note": {
+        "similarity": 0.6666666666666666,
+        "meets_threshold": 1,
+        "ground_truth": "Wrapped ETH on Optimism",
+        "prediction": "The wrapped version of ETH token on Optimism L2"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:42161:0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        "prediction": "eip155:42161:0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "WETH",
+        "prediction": "WETH Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Arbitrum",
+        "prediction": "Arbitrum"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://arbitrum.io",
+        "prediction": "https://arbitrum.io"
+      },
+      "Public Note": {
+        "similarity": 0.6666666666666666,
+        "meets_threshold": 1,
+        "ground_truth": "Wrapped ETH on Arbitrum",
+        "prediction": "The wrapped version of ETH token on Arbitrum L2"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        "prediction": "eip155:1:0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "SHIB",
+        "prediction": "SHIB Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Shiba Inu",
+        "prediction": "Shiba Inu"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://shibatoken.com",
+        "prediction": "https://shibatoken.com"
+      },
+      "Public Note": {
+        "similarity": 0.7071067811865475,
+        "meets_threshold": 1,
+        "ground_truth": "SHIB token on Ethereum",
+        "prediction": "The popular meme token SHIB on Ethereum network"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        "prediction": "eip155:1:0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "BUSD",
+        "prediction": "BUSD Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Binance USD",
+        "prediction": "Binance USD"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://paxos.com/busd",
+        "prediction": "https://paxos.com/busd"
+      },
+      "Public Note": {
+        "similarity": 0.4743416490252569,
+        "meets_threshold": 0,
+        "ground_truth": "BUSD stablecoin on Ethereum",
+        "prediction": "The official Binance USD stablecoin issued by Paxos on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "prediction": "eip155:1:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "USDC",
+        "prediction": "USDC Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "USD Coin",
+        "prediction": "USD Coin"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://circle.com",
+        "prediction": "https://circle.com"
+      },
+      "Public Note": {
+        "similarity": 0.5303300858899106,
+        "meets_threshold": 1,
+        "ground_truth": "USDC stablecoin on Ethereum",
+        "prediction": "Circle's regulated USD-backed stablecoin on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:137:0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "prediction": "eip155:137:0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "USDC",
+        "prediction": "USDC Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "USD Coin",
+        "prediction": "USD Coin"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://circle.com",
+        "prediction": "https://circle.com"
+      },
+      "Public Note": {
+        "similarity": 0.408248290463863,
+        "meets_threshold": 0,
+        "ground_truth": "USDC on Polygon",
+        "prediction": "The official USD Coin implementation on Polygon network"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x853d955aCEf822Db058eb8505911ED77F175b99e",
+        "prediction": "eip155:1:0x853d955aCEf822Db058eb8505911ED77F175b99e"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "FRAX",
+        "prediction": "FRAX Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Frax",
+        "prediction": "Frax"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://frax.finance",
+        "prediction": "https://frax.finance"
+      },
+      "Public Note": {
+        "similarity": 0.4714045207910318,
+        "meets_threshold": 0,
+        "ground_truth": "FRAX algorithmic stablecoin",
+        "prediction": "The first fractional-algorithmic stablecoin protocol"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xba100000625a3754423978a60c9317c58a424e3D",
+        "prediction": "eip155:1:0xba100000625a3754423978a60c9317c58a424e3D"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "BAL",
+        "prediction": "BAL Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Balancer",
+        "prediction": "Balancer"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://balancer.fi",
+        "prediction": "https://balancer.fi"
+      },
+      "Public Note": {
+        "similarity": 0.5222329678670936,
+        "meets_threshold": 1,
+        "ground_truth": "Balancer governance token",
+        "prediction": "The governance token of the Balancer protocol on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+        "prediction": "eip155:1:0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "FXS",
+        "prediction": "FXS Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Frax Share",
+        "prediction": "Frax Share"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://frax.finance",
+        "prediction": "https://frax.finance"
+      },
+      "Public Note": {
+        "similarity": 0.5000000000000001,
+        "meets_threshold": 1,
+        "ground_truth": "Frax governance token",
+        "prediction": "The governance and value accrual token of the Frax protocol"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+        "prediction": "eip155:1:0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "CVX",
+        "prediction": "CVX Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Convex",
+        "prediction": "Convex"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://convexfinance.com",
+        "prediction": "https://convexfinance.com"
+      },
+      "Public Note": {
+        "similarity": 0.5000000000000001,
+        "meets_threshold": 1,
+        "ground_truth": "Convex platform token",
+        "prediction": "The native token of the Convex Finance platform on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+        "prediction": "eip155:1:0x92D6C1e31e14520e676a687F0a93788B716BEff5"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "DYDX",
+        "prediction": "DYDX Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "dYdX",
+        "prediction": "dYdX"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://dydx.exchange",
+        "prediction": "https://dydx.exchange"
+      },
+      "Public Note": {
+        "similarity": 0.5477225575051663,
+        "meets_threshold": 1,
+        "ground_truth": "dYdX governance token",
+        "prediction": "The governance token of the dYdX decentralized exchange"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x6123B0049F904d730dB3C36a31167D9d4121fA6B",
+        "prediction": "eip155:1:0x6123B0049F904d730dB3C36a31167D9d4121fA6B"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "RBN",
+        "prediction": "RBN Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Ribbon",
+        "prediction": "Ribbon"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://ribbon.finance",
+        "prediction": "https://ribbon.finance"
+      },
+      "Public Note": {
+        "similarity": 0.5000000000000001,
+        "meets_threshold": 1,
+        "ground_truth": "Ribbon Finance token",
+        "prediction": "The governance token of the Ribbon Finance structured products protocol"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x0391D2021f89DC339F60Fff84546EA23E337750f",
+        "prediction": "eip155:1:0x0391D2021f89DC339F60Fff84546EA23E337750f"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5714285714285714,
+        "ground_truth": "BOND",
+        "prediction": "BOND Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "BarnBridge",
+        "prediction": "BarnBridge"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://barnbridge.com",
+        "prediction": "https://barnbridge.com"
+      },
+      "Public Note": {
+        "similarity": 0.5222329678670936,
+        "meets_threshold": 1,
+        "ground_truth": "BarnBridge governance token",
+        "prediction": "The governance token of the BarnBridge risk tokenizing protocol"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "prediction": "eip155:1:0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "MKR",
+        "prediction": "MKR Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Maker",
+        "prediction": "Maker"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://makerdao.com",
+        "prediction": "https://makerdao.com"
+      },
+      "Public Note": {
+        "similarity": 0.5222329678670936,
+        "meets_threshold": 1,
+        "ground_truth": "MakerDAO governance token",
+        "prediction": "The governance token of the MakerDAO protocol on Ethereum"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "prediction": "eip155:1:0xD533a949740bb3306d119CC777fa900bA034cd52"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "CRV",
+        "prediction": "CRV Token"
+      },
+      "Project Name": {
+        "exact_match": 0,
+        "near_match": 1,
+        "similarity": 0.9090909090909091,
+        "ground_truth": "Curve",
+        "prediction": "Curves"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://curve.fi",
+        "prediction": "https://curve.fi"
+      },
+      "Public Note": {
+        "similarity": 0.3481553119113957,
+        "meets_threshold": 0,
+        "ground_truth": "Curve DAO token",
+        "prediction": "The native governance token of the Curve Finance protocol"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "prediction": "eip155:1:0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "LDO",
+        "prediction": "LDO Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Lido",
+        "prediction": "Lido"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://lido.fi",
+        "prediction": "https://lido.fi"
+      },
+      "Public Note": {
+        "similarity": 0.3481553119113957,
+        "meets_threshold": 0,
+        "ground_truth": "Lido DAO token",
+        "prediction": "The governance token of the Lido liquid staking protocol"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "prediction": "eip155:1:0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.625,
+        "ground_truth": "stETH",
+        "prediction": "stETH Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Lido",
+        "prediction": "Lido"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://lido.fi",
+        "prediction": "https://lido.fi"
+      },
+      "Public Note": {
+        "similarity": 0.6324555320336759,
+        "meets_threshold": 1,
+        "ground_truth": "Staked ETH on Lido",
+        "prediction": "The liquid staking derivative token for ETH staked on Lido"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+        "prediction": "eip155:1:0xBe9895146f7AF43049ca1c1AE358B0541Ea49704"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.625,
+        "ground_truth": "cbETH",
+        "prediction": "cbETH Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Coinbase",
+        "prediction": "Coinbase"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://coinbase.com",
+        "prediction": "https://coinbase.com"
+      },
+      "Public Note": {
+        "similarity": 0.7071067811865475,
+        "meets_threshold": 1,
+        "ground_truth": "Coinbase Wrapped Staked ETH",
+        "prediction": "The wrapped staked ETH token issued by Coinbase"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+        "prediction": "eip155:1:0x4d224452801ACEd8B2F0aebE155379bb5D594381"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "APE",
+        "prediction": "APE Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "ApeCoin",
+        "prediction": "ApeCoin"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://apecoin.com",
+        "prediction": "https://apecoin.com"
+      },
+      "Public Note": {
+        "similarity": 0.1336306209562122,
+        "meets_threshold": 0,
+        "ground_truth": "ApeCoin for BAYC ecosystem",
+        "prediction": "The governance and utility token of the Bored Ape Yacht Club ecosystem"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+        "prediction": "eip155:1:0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.625,
+        "ground_truth": "SUSHI",
+        "prediction": "SUSHI Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Sushi",
+        "prediction": "Sushi"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://sushi.com",
+        "prediction": "https://sushi.com"
+      },
+      "Public Note": {
+        "similarity": 0.5477225575051663,
+        "meets_threshold": 1,
+        "ground_truth": "SushiSwap governance token",
+        "prediction": "The governance token of the SushiSwap decentralized exchange"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0x111111111117dC0aa78b770fA6A738034120C302",
+        "prediction": "eip155:1:0x111111111117dC0aa78b770fA6A738034120C302"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.625,
+        "ground_truth": "1INCH",
+        "prediction": "1INCH Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "1inch",
+        "prediction": "1inch"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://1inch.io",
+        "prediction": "https://1inch.io"
+      },
+      "Public Note": {
+        "similarity": 0.4803844614152615,
+        "meets_threshold": 0,
+        "ground_truth": "1inch Network token",
+        "prediction": "The governance and utility token of the 1inch Network DEX aggregator"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
+        "prediction": "eip155:1:0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "GTC",
+        "prediction": "GTC Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Gitcoin",
+        "prediction": "Gitcoin"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://gitcoin.co",
+        "prediction": "https://gitcoin.co"
+      },
+      "Public Note": {
+        "similarity": 0.5000000000000001,
+        "meets_threshold": 1,
+        "ground_truth": "Gitcoin governance token",
+        "prediction": "The governance token of the Gitcoin public goods funding platform"
+      }
+    },
+    {
+      "Contract Address": {
+        "exact_match": 1,
+        "ground_truth": "eip155:1:0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        "prediction": "eip155:1:0xc944E90C64B2c07662A292be6244BDf05Cda44a7"
+      },
+      "Public Name Tag": {
+        "exact_match": 0,
+        "near_match": 0,
+        "similarity": 0.5,
+        "ground_truth": "GRT",
+        "prediction": "GRT Token"
+      },
+      "Project Name": {
+        "exact_match": 1,
+        "near_match": 1,
+        "similarity": 1.0,
+        "ground_truth": "Graph",
+        "prediction": "Graph"
+      },
+      "UI/Website Link": {
+        "exact_match": 1,
+        "ground_truth": "https://thegraph.com",
+        "prediction": "https://thegraph.com"
+      },
+      "Public Note": {
+        "similarity": 0.5222329678670936,
+        "meets_threshold": 1,
+        "ground_truth": "Graph Protocol token",
+        "prediction": "The native token of The Graph decentralized indexing protocol"
+      }
+    }
+  ],
+  "aggregate_results": {
+    "Contract Address": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "exact_match_rate": 1.0
+    },
+    "Public Name Tag": {
+      "precision": 0.03125,
+      "recall": 0.03125,
+      "f1_score": 0.03125,
+      "exact_match_rate": 0.03125
+    },
+    "Project Name": {
+      "precision": 0.96875,
+      "recall": 1.0,
+      "f1_score": 0.9841269841269841,
+      "exact_match_rate": 0.96875
+    },
+    "UI/Website Link": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "exact_match_rate": 1.0
+    },
+    "Public Note": {
+      "semantic_similarity_rate": 0.78125
+    }
+  }
+}
