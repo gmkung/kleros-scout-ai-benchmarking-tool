@@ -1,4 +1,4 @@
-# Kleros Scout - AI-curation benchmarking tool
+# Kleros Scout - AI benchmarking tool
 
 This repository contains tools for evaluating contract metadata tagging accuracy, with a specific focus on comparing predictions against ground truth data established from the decentralized curation process from Kleros Scout (klerosscout.eth.limo).
 
